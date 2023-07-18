@@ -39,6 +39,12 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
+Collaborators include: 
+- AskBCS Learning Assistants
+- Instructor
+- TA
+- Starter code provided by [miniture-eureka](https://github.com/coding-boot-camp/miniature-eureka)
+
 ## License
 
 This application is covered under the MIT license. [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
