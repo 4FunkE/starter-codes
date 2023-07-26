@@ -4,7 +4,8 @@
     "browser": true,
     "commonjs": true,
     "node": true,
-    "es6": true
+    "es6": true,
+    "es2017": true
   },
   "parserOptions": { // TODO: Add option to support ** operators
     "ecmaVersion": "latest"
@@ -34,5 +35,6 @@
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
     "radix": "off"
-  }
+  },
+  "extends": ["prettier"]
 }
