@@ -12,24 +12,62 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Usage Instruction](#usage-instruction)
+- [Deployed Application Link](#deployed-application-link)
+- [GitHub Repository](#github-repository)
+- [Screenshot](#screenshot)
+- [Built With](#built-with)
 - [Credits](#credits)
 - [License](#license)
+- [Badges](#badges)
+- [Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-- Deployed Site -->
 
-## Usage
+1. Clone the Repository from GitHub 
+(or) Download Zip Folder from Repository from GitHub
+Open the cloned (or downloaded) repository in any source code editor.
 
-Provide instructions and examples for use. Include screenshots as needed.
+- [Please see, Deployed Application Link](#deployed-application-link)
+- [Please see, GitHub Repository](#github-repository)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+## Usage Instruction: 
 
-    ```md
-![alt text](assets/images/screenshot.png)
-    ```
+Provide instructions and examples for use.
+
+#### Visit the homepage, "Login" or "Sign Up" for an account if you don't already have one.
+1. Visit the deployed application's homepage and login or sign up for an account.
+2. Choose a teacher from the dropdown menu and rate them using the apple scale.
+3. Write a comment about the teacher's performance.
+4. Click the "Post" button to submit your comment and rating.
+5. To review your contributions, click on "Profile." Don't forget to log out when you're done!
+
+## Deployed Application Link:
+[Deployed Application Link](https://shielded-everglades-30738-44134476de15.herokuapp.com/)
+
+## GitHub Repository:
+[GitHub Repository](https://github.com/4FunkE/student-marks)
+
+## Screenshot
+![image](./public/image/Student-mark-image.png)
+
+## Built With:
+- JSON:[ JSON](https://www.npmjs.com/package/json)
+- Dynamic JavaScript
+- Node.js [Version 16.18.1](https://nodejs.org/en/blog/release/v16.18.1/)
+- Bcrypt: [5.1.0](https://www.npmjs.com/package/bcrypt)
+- Connect Session Store using Sequelize: [7.1.7](https://www.npmjs.com/package/connect-session-sequelize)
+- Dotenv: [16.3.1](https://www.npmjs.com/package/dotenv)
+- Express: [4.18.2](https://www.npmjs.com/package/express)
+- Express Handlebars: [7.1.0](https://www.npmjs.com/package/express-handlebars)
+- Express-Session: [1.17.3](https://www.npmjs.com/package/express-session)
+- Node MySql2: [3.5.2](https://www.npmjs.com/package/mysql2)
+- Sequelize: [6.32.1](https://www.npmjs.com/package/sequelize)
+- Visual Studio Code: [Website](https://code.visualstudio.com/)
 
 ## Credits
 
@@ -39,7 +77,7 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
-Collaborators include: 
+Collaborators: 
 - AskBCS Learning Assistants
 - Instructor
 - TA
@@ -51,9 +89,6 @@ This application is covered under the MIT license. [![License](https://img.shiel
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
 
 ## Badges
 
