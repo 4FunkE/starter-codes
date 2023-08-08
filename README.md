@@ -29,9 +29,9 @@ Provide a short description explaining the what, why, and how of your project. U
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 1. **Clone the Repository from GitHub:** Alternatively, you can download the ZIP folder from the repository's GitHub page.
-   ```bash
-   git clone https://github.com/4funke/Employees-of-funk.co.git
-   ```
+```bash
+git clone https://github.com/4funke/Employees-of-funk.co.git
+```
 2. **Open the Repository in a Source Code Editor:**
 Open your preferred source code editor (e.g., Visual Studio Code, Sublime Text) and navigate to the cloned repository's directory.
 
@@ -137,23 +137,23 @@ To contribute to our project, follow these steps:
 
 1. Fork the Repository: Fork our repository to your own GitHub account by clicking the "Fork" button.
 2. Clone the Repository: Clone the forked repository to your local machine using:
-    ```bash
-    git clone https://github.com/4funke/Employees-of-funk.co.git 
-    ```
+```bash
+git clone https://github.com/4funke/Employees-of-funk.co.git 
+```
 3. Create a New Branch: Create a new branch to work on your contribution using:
-    ```bash
-    git checkout -b your-feature-branch 
-    ```
+```bash
+git checkout -b your-feature-branch 
+```
 4. Make Changes: Make your desired changes or additions to the codebase.
 5. Test Your Changes: Test your changes thoroughly to ensure they work as expected.
 6. Commit Your Changes: Commit your changes with a clear and concise commit message:
-    ```bash
-    git commit -m "Add: Brief description of your changes" 
-    ```
+```bash
+git commit -m "Add: Brief description of your changes" 
+```
 7. Push to Your Fork: Push your changes to your forked repository:
-    ```bash
-    git push origin your-feature-branch 
-    ```
+```bash
+git push origin your-feature-branch 
+```
 8. Open a Pull Request: Open a pull request from your feature branch to our main repository. Provide a clear title and description for your pull request, outlining the changes you've made.
 9. Review and Feedback: Participate in the discussion, address any feedback, and iterate on your changes as needed.
 
@@ -163,9 +163,18 @@ If you're unsure about where to start or need assistance at any point, feel free
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+We have implemented a comprehensive testing suite to ensure the stability and functionality of our application. Our testing includes unit tests, integration tests, and end-to-end tests to cover various scenarios. To run the tests, follow these steps:
 
-If you would like to test this code. Enter the intergrated terminal. You will need to npm i, then you can run NPM test. This will run test for the code. 
+1. Ensure you have all dependencies installed by running:
+```bash
+npm i 
+```
+2. Run the tests using the following command:
+```bash
+npm test 
+```
+
+Our testing suite provides confidence in the quality of our code and ensures that any changes made to the codebase don't introduce regressions.
 
 ## Questions
 If you have any questions or need further assistance, feel free to reach out. You can contact me through my [GitHub profile](https://github.com/4FunkE) or via email at 4funkecodes@gmail.com. I'm here to help and support you in any way I can. Have a funke day!
