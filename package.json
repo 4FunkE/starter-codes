@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "must-be-lowercase-and-dashed",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
